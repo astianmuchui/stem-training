@@ -1,4 +1,3 @@
-# Code
 print("Welcome : Complex calculator")
 first_number = input("Enter first number: ")
 second_number = input("Enter second number: ")
@@ -19,4 +18,4 @@ elif '/' == operator:
 elif '%' == operator:
     print(ans,first_number%second_number)
 else:
-    print("Operator does not exist")
+    print("Operator does not exist")                
