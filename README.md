@@ -24,3 +24,5 @@
 
 # Day Five
 - For loops
+- Ranges
+- Looping through strings
