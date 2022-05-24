@@ -26,3 +26,8 @@
 - For loops
 - Ranges
 - Looping through strings
+# Day 7
+- List methods
+- sets
+- Tuples
+- Functions
