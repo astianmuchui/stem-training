@@ -31,3 +31,9 @@
 - sets
 - Tuples
 - Functions
+# Day 8
+- Functions
+- Dictionaries
+- Try and catch
+- Error handling
+- File handling
