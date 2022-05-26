@@ -1,0 +1,6 @@
+president
+vice president
+prime minister
+governor
+senator
+mp
