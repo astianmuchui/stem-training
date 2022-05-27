@@ -37,3 +37,6 @@
 - Try and catch
 - Error handling
 - File handling
+# Day 9
+- Object oriented programming
+- More on file handling
