@@ -20,5 +20,5 @@ while True:
     except  ValueError:
         print("Value error")
     except ZeroDivisionError:
-        print("Division by zero is not possible")
+        print("Division by zero is'nt possible")
         

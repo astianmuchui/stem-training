@@ -1,6 +1,2 @@
-president
-vice president
-prime minister
-governor
-senator
-mp
+I write code   
+ I also do cryptography and hashing
