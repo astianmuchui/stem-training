@@ -40,3 +40,6 @@
 # Day 9
 - Object oriented programming
 - More on file handling
+# Day 10
+- Graphical user interface designing
+- tkinter library
