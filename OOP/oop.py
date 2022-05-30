@@ -12,7 +12,6 @@ class dog:
 german_shepherd = dog(no_of_eyes = 2,color = "grey",legs=2)
 dodger = dog(no_of_eyes=1,color='green',legs=4)
 dobberman = dog(2,'brown',4)
-
 print(german_shepherd.color,german_shepherd.no_of_eyes  )
 print(dodger.no_of_eyes)
 dobberman.color = "gray50"
