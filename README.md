@@ -43,3 +43,4 @@
 # Day 10
 - Graphical user interface designing
 - tkinter library
+- inheritance in oop
