@@ -9,14 +9,14 @@ class person:
             print(self.dob)
     def age(self):
             self.year = 2022
-            age = self.year - self.dob.year
+            age = self.year - self.dob
             print(age)
     def height(self):
             print(self.height)
     def weight(self):
             print(self.weight)
     def bmi(self):
-        bmi = self.weight / (self.height * self.height)
+        bmi = self.weight / (self.height **2)
         print(bmi)
         
 class student(person):
@@ -38,3 +38,5 @@ class teacher(person):
         print(self.class_teaching)
     def salary(self):
         print(self.salary)    
+        
+# instantiate 
