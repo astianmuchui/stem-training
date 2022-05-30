@@ -5,8 +5,9 @@ class person:
         self.dob = dob
         self.height = height
         self.weight = weight
-    def dob(self):
-            print(self.dob)
+    def date_of_birth(self):
+            dob = self.dob
+            print(dob)
     def age(self):
             self.year = 2022
             age = self.year - self.dob
@@ -40,3 +41,6 @@ class teacher(person):
         print(self.salary)    
         
 # instantiate 
+x = person("John", 2000, 5, 150)
+y = student("Jane", 2000, 5, 150, "1st", "Maths")
+z = teacher("Jack", 2000, 5, 150, "1st", "Maths")
