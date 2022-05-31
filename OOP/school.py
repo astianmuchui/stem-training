@@ -1,4 +1,3 @@
-
 class person:
     def __init__(self, name, dob, height, weight):
         self.name = name
@@ -13,9 +12,11 @@ class person:
             age = self.year - self.dob
             print(age)
     def height(self):
-            print(self.height)
+            height = self.height
+            print(height)
     def weight(self):
-            print(self.weight)
+            weight = self.weight
+            print(weight)
     def bmi(self):
         bmi = self.weight / (self.height **2)
         print(bmi)
@@ -26,21 +27,29 @@ class student(person):
         self.class_studying = class_studying
         self.favourite_subject = favourite_subject
     def class_studying(self):
-        print(self.class_studying)
+        class_studying = self.class_studying
+        print(class_studying)
     def favourite_subject(self):
-        print(self.favourite_subject)
+        favourite_subject = self.favourite_subject
+        print(favourite_subject)
         
 class teacher(person):
-    def __init__(self, name, dob, height, weight, class_teaching, salary):
+    def __init__(self, name, dob, height, weight, class_teaching,subject_teaching, salary):
         super().__init__(name, dob, height, weight)
         self.class_teaching = class_teaching
+        self.subject_teaching = subject_teaching
         self.salary = salary
     def class_teaching(self):
-        print(self.class_teaching)
+        class_teaching = self.class_teaching
+        print(class_teaching)
     def salary(self):
-        print(self.salary)    
-        
+        salary = self.salary
+        print(salary)    
+    def teaching_subject(self):
+        subject_teaching = self.subject_teaching
+        print(subject_teaching)    
 # instantiate 
-x = person("John", 2000, 5, 150)
-y = student("Jane", 2000, 5, 150, "1st", "Maths")
-z = teacher("Jack", 2000, 5, 150, "1st", "Maths")
+x = person(name="John",dob= 2000, height=5, weight=150)
+y = student(name="Jane", dob=2000, height=5, weight=150, class_studying="1st", favourite_subject="Maths")
+z = teacher(name="Jack", dob=2000, height=5, weight=150, class_teaching="1st", subject_teaching="Maths",salary=55000)
+z.teaching_subject()
