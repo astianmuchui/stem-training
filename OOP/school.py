@@ -1,3 +1,11 @@
+#  class for person , student and teacher 
+#  person class is parent class 
+#  @params name , dob ,height ,weight
+# method to compute theage , BMI
+
+# student should inherit peson class, add the class in which the student is studying, favourite subject
+
+# teacher should inherit person class , add the class in which the teacher teaches , salary 
 class person:
     def __init__(self, name, dob, height, weight):
         self.name = name
@@ -20,7 +28,6 @@ class person:
     def bmi(self):
         bmi = self.weight / (self.height **2)
         print(bmi)
-        
 class student(person):
     def __init__(self, name, dob, height, weight, class_studying, favourite_subject):
         super().__init__(name, dob, height, weight)
