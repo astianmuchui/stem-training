@@ -44,3 +44,7 @@
 - Graphical user interface designing
 - tkinter library
 - inheritance in oop
+# Day 11
+- Modules
+- Folders as packages
+- Pip and pypi
