@@ -48,3 +48,7 @@
 - Modules
 - Folders as packages
 - Pip and pypi
+# Day 12
+- Adding functionality to GUIs
+- Styling 
+- User Inputs
