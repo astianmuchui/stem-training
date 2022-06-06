@@ -52,3 +52,7 @@
 - Adding functionality to GUIs
 - Styling 
 - User Inputs
+# Day 13
+- Advanced try catch
+- File handling recap
+- String analysis
