@@ -17,7 +17,7 @@ def intAnalyzer(n):
             b = i/2
             file.write(f"{b} \n")
         else:
-            c = i*2
+            c = i**2
             file.write(f"{c} \n")
             
 
