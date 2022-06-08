@@ -62,3 +62,7 @@
 - Solving challenges with python
 # Day 16
 - Intro to IOT and robotics
+- Microprocessors
+- Microcontrollers
+- Hardware Development
+- Low level programming
